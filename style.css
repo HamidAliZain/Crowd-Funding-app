@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* { */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 235);
+     
+}
+
+.gray {
+    color: hsl(0, 0%, 48%);
+}
+
+.ModerateCyan {
+    color: hsl(176, 72%, 28%);
+    /* color: hsl(176, 50%, 47%); */
+}
+
+.DarkCyan {
+    background-color: hsl(176, 72%, 28%);
+}
+
+.bookmark:hover {
+    background-color: hsl(176, 72%, 28%);
+}
+
+#hero {
+    height: 60vh;
+    background-image: url('/images/image-hero-desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+}
