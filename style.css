@@ -1,3 +1,4 @@
+@import 'animate.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +9,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(235, 235, 235);
-     
+
 }
 
 .gray {
@@ -35,4 +36,13 @@ body {
     background-position: center;
 
     background-size: cover;
+}
+
+.popUp {
+    animation: fadeInDown forwards 1s;
+}
+
+.pledge {
+    animation: fadeInDown forwards 1s;
+     
 }
