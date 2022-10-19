@@ -43,6 +43,36 @@ body {
 }
 
 .pledge {
-    animation: fadeInDown forwards 1s;
-     
+    animation: bounceIn forwards 1s;
+}
+
+.pricinSection {
+    animation: fadeIn forwards 1s;
+}
+
+
+
+.currInput {
+    width: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+@media only screen and (max-width: 769px) {
+
+    #hero {
+        height: 60vh;
+        background-image: url('/images/image-hero-mobile.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+
 }
